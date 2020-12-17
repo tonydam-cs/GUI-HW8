@@ -39,43 +39,43 @@ author.
 #letterSlot1 {
   width: 5em;
   height: 5em;
-  background-image: url("/tiles/emptySlot.PNG");
+  background-image: url("../tiles/emptySlot.PNG");
 }
 
 #letterSlot2 {
   width: 5em;
   height: 5em;
-  background-image: url("/tiles/doubleLetterSlot.PNG");
+  background-image: url("../tiles/doubleLetterSlot.PNG");
 }
 
 #letterSlot3 {
   width: 5em;
   height: 5em;
-  background-image: url("/tiles/emptySlot.PNG");
+  background-image: url("../tiles/emptySlot.PNG");
 }
 
 #letterSlot4 {
   width: 5em;
   height: 5em;
-  background-image: url("/tiles/emptySlot.PNG");
+  background-image: url("../tiles/emptySlot.PNG");
 }
 
 #letterSlot5 {
   width: 5em;
   height: 5em;
-  background-image: url("/tiles/emptySlot.PNG");
+  background-image: url("../tiles/emptySlot.PNG");
 }
 
 #letterSlot6 {
   width: 5em;
   height: 5em;
-  background-image: url("/tiles/doubleWordSlot.PNG");
+  background-image: url("../tiles/doubleWordSlot.PNG");
 }
 
 #letterSlot7 {
   width: 5em;
   height: 5em;
-  background-image: url("/tiles/emptySlot.PNG");
+  background-image: url("../tiles/emptySlot.PNG");
 }
 
 #letterSlot {
