@@ -129,7 +129,7 @@ var droppedOn_id;
                 points  : ScrabbleTiles[letterPickedFromBag].value,
                 fromSlot   : slot_to_fill
             }).appendTo(`#tile${slot_to_fill}`);
-            $(`#tileFromBag${slot_to_fill}`).attr("src", `Scrabble_Tile_${letterPickedFromBag}.jpg`);
+            $(`#tileFromBag${slot_to_fill}`).attr("src", `tiles/Scrabble_Tile_${letterPickedFromBag}.jpg`);
             missingSlots.splice(i, 1);
 
             $(`#tileFromBag${slot_to_fill}`).draggable();
@@ -160,7 +160,7 @@ var droppedOn_id;
                 fromSlot   : i
             }).appendTo(`#tile${i}`);
 
-            $(`#tileFromBag${i}`).attr("src", `Scrabble_Tile_${letterPickedFromBag}.jpg`);
+            $(`#tileFromBag${i}`).attr("src", `tiles/Scrabble_Tile_${letterPickedFromBag}.jpg`);
             tiles.splice(index, 1); 
             
             console.log(letterPickedFromBag);
