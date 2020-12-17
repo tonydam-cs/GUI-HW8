@@ -1,0 +1,86 @@
+<!--
+ Name: Tony Dam
+ Email: tony_dam@student.uml.edu
+ Affiliation: Junior Student at UMass Lowell in COMP.4610-201
+              91.61 GUI Programming I
+Date created: 11/23/20
+
+Sources from: W3Schools, Stackoverflow, Youtube, JSFiddle
+and https://developer.mozilla.org/en-US/docs/Web/CSS/linear-gradient
+
+Website was created for personal use. Creates a mini version of scrabble
+word game, counting the word, letter, and tile scores.
+Copyright (c) November 23rd, 2020 Tony Dam. All rights reserved.
+May be freely copied or excerpted for educational purposes with credit to
+author.
+-->
+
+<html>
+<head>
+  <title>Scrabble!</title>
+  <meta charset="utf-8">
+    
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+  <link rel="stylesheet" href="css/stylesheet.css">
+  
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+  <script src="js/java_scrabble.js"></script>
+</head>
+
+<body>
+  <!-- Score Counters-->
+  <div id="indicators" class="row ui-droppable d-flex justify-content-center">
+    <div id="score" class="ui-widget-content">
+      <h>Word Score:</h>
+      <p> 0 </p>
+    </div>
+    <div id="tilesLeft" class="ui-widget-content">
+      <h>Tiles Remaining:</h>
+      <p> 93 </p>
+    </div>
+    <div id="total" class="ui-widget-content">
+      <h>Letter Score:</h>
+      <p> 0 </p>
+    </div>
+  </div>
+  <div id="contents_wrapper">
+    <!-- Title Image-->
+    <header>
+      <h1 class="row ui-droppable d-flex justify-content-center">Scrabble Word!</h1>
+    </header>
+
+    <div id="board"class="row ui-droppable d-flex justify-content-center">
+        <div id="letterSlot1" class="letterSlot ui-droppable" col="1"></div>
+        <div id="letterSlot2" class="letterSlot ui-droppable" col="2"></div>
+        <div id="letterSlot3" class="letterSlot ui-droppable" col="3"></div>
+        <div id="letterSlot4" class="letterSlot ui-droppable" col="4"></div>
+        <div id="letterSlot5" class="letterSlot ui-droppable" col="5"></div>
+        <div id="letterSlot6" class="letterSlot ui-droppable" col="6"></div>
+        <div id="letterSlot7" class="letterSlot ui-droppable" col="7"></div>
+    </div>
+
+    <!-- Control buttons -->
+    <div id="buttons"class="row ui-droppable d-flex justify-content-center">
+      <button id="nextWordButton" onclick="nextWord()">Next Word</button>
+      <button id="restartButton" onclick="restart()">Reset</button>
+    </div>
+
+    <!-- Rack and tiles-->
+    <div id="rack" class="row ui-droppable d-flex justify-content-center">
+      <img id="rack_background" src="images/scrabble-tile-holder-406774_640.png"></img>
+      <div id="rackContainer" class="row ui-droppable d-flex justify-content-center">
+        <div id="tile1" class="tile ui-droppable" slot="1"> </div>
+        <div id="tile2" class="tile ui-droppable" slot="2"> </div>
+        <div id="tile3" class="tile ui-droppable" slot="3"> </div>
+        <div id="tile4" class="tile ui-droppable" slot="4"> </div>
+        <div id="tile5" class="tile ui-droppable" slot="5"> </div>
+        <div id="tile6" class="tile ui-droppable" slot="6"> </div>
+        <div id="tile7" class="tile ui-droppable" slot="7"> </div>
+    </div>
+    
+  </div> 
+</body>
+</html>
