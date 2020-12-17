@@ -1,0 +1,110 @@
+/*
+ Name: Tony Dam
+ Email: tony_dam@student.uml.edu
+ Affiliation: Junior Student at UMass Lowell in COMP.4610-201
+              91.61 GUI Programming I
+Date created: 11/23/20
+
+Sources from: W3Schools, Stackoverflow, Youtube, JSFiddle
+and https://developer.mozilla.org/en-US/docs/Web/CSS/linear-gradient
+
+Website was created for personal use. Creates a mini version of scrabble
+word game, counting the word, letter, and tile scores.
+Copyright (c) November 23rd, 2020 Tony Dam. All rights reserved.
+May be freely copied or excerpted for educational purposes with credit to
+author.
+*/
+
+/*CSS for draggable class */
+#draggable {
+    width: 70px; 
+    height: 70px;
+    padding: 0.5em;
+    border-color: teal;
+    border-width: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #draggable > p {
+    font-size: 75%;
+  }
+
+#indicators > div{
+  padding: 20px 20px 20px 20px;
+  text-align: center;
+}
+
+/*Images for letter tiles */
+#letterSlot1 {
+  width: 5em;
+  height: 5em;
+  background-image: url("tiles/emptySlot.PNG");
+}
+
+#letterSlot2 {
+  width: 5em;
+  height: 5em;
+  background-image: url("tiles/doubleLetterSlot.PNG");
+}
+
+#letterSlot3 {
+  width: 5em;
+  height: 5em;
+  background-image: url("tiles/emptySlot.PNG");
+}
+
+#letterSlot4 {
+  width: 5em;
+  height: 5em;
+  background-image: url("tiles/emptySlot.PNG");
+}
+
+#letterSlot5 {
+  width: 5em;
+  height: 5em;
+  background-image: url("tiles/emptySlot.PNG");
+}
+
+#letterSlot6 {
+  width: 5em;
+  height: 5em;
+  background-image: url("tiles/doubleWordSlot.PNG");
+}
+
+#letterSlot7 {
+  width: 5em;
+  height: 5em;
+  background-image: url("tiles/emptySlot.PNG");
+}
+
+#letterSlot {
+  margin-left: 0.05%;
+  margin-right: 0.05%;
+}
+
+/*creates board image */
+#boardImg {
+  padding: 0.5%;
+}
+/* positions tile images */
+.tile {
+  height: 65px;
+  width:  65px;
+}
+
+.tileFromBag {
+width: 4em;
+height: 4em;
+}
+/*positions the rack background of image */
+#rack {
+  margin: 3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#rack_background {
+z-index: -1;
+position: absolute;
+}
