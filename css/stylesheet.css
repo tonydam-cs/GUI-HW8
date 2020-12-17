@@ -69,7 +69,7 @@ author.
 #letterSlot6 {
   width: 5em;
   height: 5em;
-  background-image: url("../tiles/doubleWordSlot.PNG");
+  background-image: url("/tiles/doubleWordSlot.PNG");
 }
 
 #letterSlot7 {
