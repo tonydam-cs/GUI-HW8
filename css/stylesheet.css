@@ -39,43 +39,43 @@ author.
 #letterSlot1 {
   width: 5em;
   height: 5em;
-  background-image: url("emptySlot.PNG");
+  background-image: url("GUI-HW8/tiles/emptySlot.PNG");
 }
 
 #letterSlot2 {
   width: 5em;
   height: 5em;
-  background-image: url("doubleLetterSlot.PNG");
+  background-image: url("GUI-HW8/tiles/doubleLetterSlot.PNG");
 }
 
 #letterSlot3 {
   width: 5em;
   height: 5em;
-  background-image: url("emptySlot.PNG");
+  background-image: url("GUI-HW8/tiles/emptySlot.PNG");
 }
 
 #letterSlot4 {
   width: 5em;
   height: 5em;
-  background-image: url("emptySlot.PNG");
+  background-image: url("GUI-HW8/tiles/emptySlot.PNG");
 }
 
 #letterSlot5 {
   width: 5em;
   height: 5em;
-  background-image: url("emptySlot.PNG");
+  background-image: url("GUI-HW8/tiles/emptySlot.PNG");
 }
 
 #letterSlot6 {
   width: 5em;
   height: 5em;
-  background-image: url("doubleWordSlot.PNG");
+  background-image: url("GUI-HW8/tiles/doubleWordSlot.PNG");
 }
 
 #letterSlot7 {
   width: 5em;
   height: 5em;
-  background-image: url("emptySlot.PNG");
+  background-image: url("GUI-HW8/tiles/emptySlot.PNG");
 }
 
 #letterSlot {
