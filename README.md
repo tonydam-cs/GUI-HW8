@@ -7,7 +7,6 @@
 Date created: 11/23/20
 
 Sources from: W3Schools, Stackoverflow, Youtube, JSFiddle
-and https://developer.mozilla.org/en-US/docs/Web/CSS/linear-gradient
 
 Website was created for personal use. Creates a mini version of scrabble
 word game, counting the word, letter, and tile scores.
